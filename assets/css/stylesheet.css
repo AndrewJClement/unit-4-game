@@ -1,0 +1,16 @@
+.jumbotron {
+    background-image: url("../images/crystalBackground.jpg");
+    background-size: cover; 
+  }
+  
+  .jumbotron h1 {
+    color:white;
+    text-shadow: 3px 3px black;
+    font-size: 60px;
+  }
+  
+  .instructions {
+    text-align: center; 
+    font-size: 15px;
+  }
+  

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+</head>
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>Crystal Collector</h1></div>
+
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-12 instructions">
+                    <h3>Instructions</h3> 
+                    <p>You will be shown a random number at the start of the game.</p>
+                    <p>Click on one of the four crystals below and it will add a specific amount of points to the your total score.</p>
+                    <p>The game will hide the amount until the player clicks a crystal, but when clicked your total score will be updated. </p>
+                    <p>You win by matching your total score to the random number.</p>
+                    <p>You lose the game if your total score goes above the random number.</p>
+                  </div>
+                </div>
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Score to match: <span id="scoreToMatch"></span></h2>
+            </div>
+        <div class="col-sm-4">
+                <h3> Total score: <span id="totalScore"></span></h3>
+            </div>
+        <div class="col-sm-4">
+                <h3>Wins: <span id="wins"></span></h3>
+                <h3 class="text-left">Losses: <span id="losses"></span></h3>
+            </div>
+        </div>
+    
+        <div class="row text-center">
+                <div class="col-sm-3">
+                <img src="assets/images/blackCrystal.jpg" class="img-thumnail black" alt="Black Crystal" width="200" height="200" />
+                </div>
+                <div class="col-sm-3">
+                <img src="assets/images/bluecrystal.jpg" class="img-thumnail blue" alt="Blue Crystal" width="200" height="200" />
+                </div>
+                <div class="col-sm-3">
+                <img src="assets/images/greenCrystal.jpg" class="img-thumnail green" alt="Green Crystal" width="200" height="200" />
+                </div>
+                <div class="col-sm-3">
+                  <img src="assets/images/purpleCrystal.jpg" class="img-thumnail purple" alt="Purple Crystal" width="200" height="200" />
+                </div>
+              </div>
+</body>
+<!--JavaScript-->
+<script src="assets/javascript/game.js"></script> 
+</html>
+
+
+
+
+
+
+
+
+ 
+
+
+
